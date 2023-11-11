@@ -13,6 +13,27 @@
         android:theme="@style/Theme.ClubsNITP"
         tools:targetApi="31">
         <activity
+            android:name=".EXPRESSO"
+            android:exported="false" />
+        <activity
+            android:name=".ASME"
+            android:exported="false" />
+        <activity
+            android:name=".SAPTAK"
+            android:exported="false" />
+        <activity
+            android:name=".HAckSlash"
+            android:exported="false" />
+        <activity
+            android:name=".GDSC"
+            android:exported="false" />
+        <activity
+            android:name=".TESLA"
+            android:exported="false" />
+        <activity
+            android:name=".IEEE"
+            android:exported="false" />
+        <activity
             android:name=".DESCO"
             android:exported="false" />
         <activity
