@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/white"
+    android:background="@color/color_EEEEEE"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
         android:layout_width="match_parent"
         android:layout_height="85dp"
+        android:background="@color/color_EEEEEE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +30,6 @@
             app:layout_constraintHorizontal_bias="0.1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.86"
             tools:srcCompat="@color/design_default_color_error" />
 
         <TextView
@@ -37,19 +37,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Clubs @NITP"
+            android:textColor="@color/black"
             android:textSize="34sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.55"
+            app:layout_constraintHorizontal_bias="0.56"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.7" />
+            app:layout_constraintVertical_bias="0.53" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
         android:layout_marginTop="8dp">
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -69,6 +71,7 @@
                 android:width="160dp"
                 android:height="160dp"
                 android:text="Desco"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/button2"
@@ -84,6 +87,7 @@
                 android:width="160dp"
                 android:height="160dp"
                 android:text="IEEE"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -99,6 +103,7 @@
                 android:width="160dp"
                 android:height="160dp"
                 android:text="TESLA"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toStartOf="@+id/button4"
@@ -114,6 +119,7 @@
                 android:width="160dp"
                 android:height="160dp"
                 android:text="HackSlash"
+                android:textColor="#FFFFFF"
                 android:textSize="23sp"
                 app:iconSize="@android:dimen/thumbnail_height"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -130,6 +136,7 @@
                 android:width="160dp"
                 android:height="160dp"
                 android:text="ASME"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -145,6 +152,7 @@
                 android:width="160dp"
                 android:height="160dp"
                 android:text="GDSC"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -160,6 +168,7 @@
                 android:width="160dp"
                 android:height="160dp"
                 android:text="Saptak"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -175,6 +184,7 @@
                 android:width="160dp"
                 android:height="160dp"
                 android:text="Expresso"
+                android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
