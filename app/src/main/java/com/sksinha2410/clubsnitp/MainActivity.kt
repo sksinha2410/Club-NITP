@@ -3,9 +3,7 @@ package com.sksinha2410.clubsnitp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
-import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,8 +37,8 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        val asme = findViewById<Button>(R.id.button5)
-        asme.setOnClickListener {
+        val ASME = findViewById<Button>(R.id.button5)
+        ASME.setOnClickListener {
             val Intent = Intent(this,ASME::class.java)
             startActivity(Intent)
         }
