@@ -13,6 +13,30 @@
         android:theme="@style/Theme.ClubsNITP"
         tools:targetApi="31">
         <activity
+            android:name=".teslaExtraPayment"
+            android:exported="false" />
+        <activity
+            android:name=".saptakExtraPayment"
+            android:exported="false" />
+        <activity
+            android:name=".ieeeExtraPayment"
+            android:exported="false" />
+        <activity
+            android:name=".hackslashExtraPayment"
+            android:exported="false" />
+        <activity
+            android:name=".gdscExtraPayment"
+            android:exported="false" />
+        <activity
+            android:name=".expressoExtraPayment"
+            android:exported="false" />
+        <activity
+            android:name=".descoExtraPayment"
+            android:exported="false" />
+        <activity
+            android:name=".asmeExtraPayment"
+            android:exported="false" />
+        <activity
             android:name=".teslaPayment"
             android:exported="false" />
         <activity
