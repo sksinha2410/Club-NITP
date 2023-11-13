@@ -16,5 +16,11 @@ class SAPTAK : AppCompatActivity() {
             val Intent = Intent(this,saptakPatment::class.java)
             startActivity(Intent)
         }
+
+        val saptakE = findViewById<CardView>(R.id.button2)
+        saptakE.setOnClickListener {
+            val Intent = Intent(this,saptakExtraPayment::class.java)
+            startActivity(Intent)
+        }
     }
 }

@@ -16,5 +16,12 @@ class HAckSlash : AppCompatActivity() {
             val Intent = Intent(this,hackslashPayment::class.java)
             startActivity(Intent)
         }
+
+
+        val hackslashE = findViewById<CardView>(R.id.button2)
+        hackslashE.setOnClickListener {
+            val Intent = Intent(this,hackslashExtraPayment::class.java)
+            startActivity(Intent)
+        }
     }
 }

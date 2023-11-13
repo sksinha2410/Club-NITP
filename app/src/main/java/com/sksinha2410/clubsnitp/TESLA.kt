@@ -18,5 +18,12 @@ class TESLA : AppCompatActivity() {
             val Intent = Intent(this,teslaPayment::class.java)
             startActivity(Intent)
         }
+
+
+        val teslaE = findViewById<CardView>(R.id.button2)
+        teslaE.setOnClickListener {
+            val Intent = Intent(this,teslaExtraPayment::class.java)
+            startActivity(Intent)
+        }
     }
 }

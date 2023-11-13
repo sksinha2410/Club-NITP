@@ -16,5 +16,12 @@ class IEEE : AppCompatActivity() {
             startActivity(Intent)
         }
 
+
+        val ieeeE = findViewById<CardView>(R.id.button2)
+        ieeeE.setOnClickListener {
+            val Intent = Intent(this,ieeeExtraPayment::class.java)
+            startActivity(Intent)
+        }
+
     }
 }

@@ -16,5 +16,11 @@ class GDSC : AppCompatActivity() {
             val Intent = Intent(this,gdscPaymenmt::class.java)
             startActivity(Intent)
         }
+
+        val gdscE= findViewById<CardView>(R.id.button2)
+        gdscE.setOnClickListener {
+            val Intent = Intent(this,gdscExtraPayment::class.java)
+            startActivity(Intent)
+        }
     }
 }

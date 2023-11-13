@@ -16,5 +16,11 @@ class EXPRESSO : AppCompatActivity() {
             val Intent = Intent(this,expressoPayment::class.java)
             startActivity(Intent)
         }
+
+        val expressoE = findViewById<CardView>(R.id.button2)
+        expressoE.setOnClickListener {
+            val Intent = Intent(this,expressoExtraPayment::class.java)
+            startActivity(Intent)
+        }
     }
 }

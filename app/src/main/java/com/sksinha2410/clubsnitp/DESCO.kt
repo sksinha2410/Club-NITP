@@ -18,5 +18,11 @@ class DESCO : AppCompatActivity() {
             val Intent = Intent(this,descoPayment::class.java)
             startActivity(Intent)
         }
+
+        val descoE = findViewById<CardView>(R.id.button2)
+        descoE.setOnClickListener {
+            val Intent = Intent(this,descoExtraPayment::class.java)
+            startActivity(Intent)
+        }
     }
 }
