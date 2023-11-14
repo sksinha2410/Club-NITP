@@ -12,7 +12,6 @@ class ASME : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_asme)
 
-
         val asme = findViewById<CardView>(R.id.button)
         asme.setOnClickListener {
             val Intent = Intent(this,asmePayment::class.java)
