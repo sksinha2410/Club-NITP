@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.cardview.widget.CardView
 
 class MainActivity : AppCompatActivity() {
 
@@ -12,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val desco = findViewById<Button>(R.id.button)
+        val desco = findViewById<CardView>(R.id.button)
         desco.setOnClickListener {
             val Intent = Intent(this,DESCO::class.java)
             startActivity(Intent)
@@ -24,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent)
         }
 
-        val tesla = findViewById<Button>(R.id.button3)
+        val tesla = findViewById<CardView>(R.id.button3)
         tesla.setOnClickListener {
             val Intent = Intent(this,TESLA::class.java)
             startActivity(Intent)

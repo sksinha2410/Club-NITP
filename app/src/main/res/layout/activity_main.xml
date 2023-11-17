@@ -63,15 +63,14 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.35000002">
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:text="Desco"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#622828"
+                android:foreground="@drawable/desco_logo"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.086"
@@ -95,18 +94,14 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.039" />
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:background="@drawable/red_circle"
-                android:backgroundTint="#622828"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#FF5463"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 android:foreground="@drawable/tesla_logo"
-                android:shadowColor="#62000000"
-                android:textColorHighlight="#62282f"
-                android:textColorLink="#622828"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.085"
