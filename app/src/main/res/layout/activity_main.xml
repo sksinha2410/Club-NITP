@@ -23,7 +23,7 @@
             android:id="@+id/imageView"
             android:layout_width="65dp"
             android:layout_height="65dp"
-            android:background="@drawable/red_circle_shape"
+            android:src="@drawable/nitp_logo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.1"
@@ -101,15 +101,19 @@
                 android:layout_height="wrap_content"
                 android:width="160dp"
                 android:height="160dp"
-                android:text="TESLA"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:background="@drawable/red_circle"
+                android:backgroundTint="#622828"
+                android:foreground="@drawable/tesla_logo"
+                android:shadowColor="#62000000"
+                android:textColorHighlight="#62282f"
+                android:textColorLink="#622828"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.085"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.229" />
+                app:layout_constraintVertical_bias="0.229"
+                app:rippleColor="#622828" />
 
             <Button
                 android:id="@+id/button4"
