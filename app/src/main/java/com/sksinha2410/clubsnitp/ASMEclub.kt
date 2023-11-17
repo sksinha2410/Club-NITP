@@ -1,13 +1,11 @@
 package com.sksinha2410.clubsnitp
 
-import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import androidx.cardview.widget.CardView
 
-class ASME : AppCompatActivity() {
+class ASMEclub : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_asme)

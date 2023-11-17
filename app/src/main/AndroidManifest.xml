@@ -40,13 +40,13 @@
             android:name=".ROBOTICS"
             android:exported="false" />
         <activity
-            android:name=".GYB"
+            android:name=".GYBclub"
             android:exported="false" />
         <activity
             android:name=".NATVANSH"
             android:exported="false" />
         <activity
-            android:name=".ASCE"
+            android:name=".ASCEclub"
             android:exported="false" />
         <activity
             android:name=".teslaExtraPayment"
@@ -100,7 +100,7 @@
             android:name=".EXPRESSO"
             android:exported="false" />
         <activity
-            android:name=".ASME"
+            android:name=".ASMEclub"
             android:exported="false" />
         <activity
             android:name=".SAPTAK"

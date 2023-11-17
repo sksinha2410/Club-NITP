@@ -10,14 +10,14 @@ class NATVANSH : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_natvansh)
 
-        val natvansh = findViewById<CardView>(R.id.button)
-        natvansh.setOnClickListener {
+        val natvanshclub = findViewById<CardView>(R.id.button)
+        natvanshclub.setOnClickListener {
             val Intent = Intent(this,natvanshPaymentPage::class.java)
             startActivity(Intent)
         }
 
-        val natvanshE = findViewById<CardView>(R.id.button2)
-        natvanshE.setOnClickListener {
+        val natvanshclubE = findViewById<CardView>(R.id.button2)
+        natvanshclubE.setOnClickListener {
             val Intent = Intent(this,natvanshExtraPaymentPage::class.java)
             startActivity(Intent)
         }

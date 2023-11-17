@@ -37,9 +37,9 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        val ASME = findViewById<Button>(R.id.button5)
-        ASME.setOnClickListener {
-            val Intent = Intent(this,ASME::class.java)
+        val ASMEclub = findViewById<Button>(R.id.button5)
+        ASMEclub.setOnClickListener {
+            val Intent = Intent(this,ASMEclub::class.java)
             startActivity(Intent)
         }
 
@@ -63,18 +63,18 @@ class MainActivity : AppCompatActivity() {
 
         val ASCE = findViewById<Button>(R.id.button9)
         ASCE.setOnClickListener {
-            val Intent = Intent(this,ASCE::class.java)
+            val Intent = Intent(this,ASCEclub::class.java)
             startActivity(Intent)
         }
 
         val GYB = findViewById<Button>(R.id.button10)
         GYB.setOnClickListener {
-            val Intent = Intent(this,GYB::class.java)
+            val Intent = Intent(this,GYBclub::class.java)
             startActivity(Intent)
         }
 
-        val ROBOTICS = findViewById<Button>(R.id.button11)
-        ROBOTICS.setOnClickListener {
+        val robotics = findViewById<Button>(R.id.button11)
+        robotics.setOnClickListener {
             val Intent = Intent(this,ROBOTICS::class.java)
             startActivity(Intent)
         }
