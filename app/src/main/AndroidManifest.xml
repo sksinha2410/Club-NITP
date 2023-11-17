@@ -13,6 +13,18 @@
         android:theme="@style/Theme.ClubsNITP"
         tools:targetApi="31">
         <activity
+            android:name=".ROBOTICS"
+            android:exported="false" />
+        <activity
+            android:name=".GYB"
+            android:exported="false" />
+        <activity
+            android:name=".NATVANSH"
+            android:exported="false" />
+        <activity
+            android:name=".ASCE"
+            android:exported="false" />
+        <activity
             android:name=".teslaExtraPayment"
             android:exported="false" />
         <activity
