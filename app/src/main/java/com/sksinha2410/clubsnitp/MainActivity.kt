@@ -60,5 +60,29 @@ class MainActivity : AppCompatActivity() {
             val Intent = Intent(this,EXPRESSO::class.java)
             startActivity(Intent)
         }
+
+        val ASCE = findViewById<Button>(R.id.button9)
+        ASCE.setOnClickListener {
+            val Intent = Intent(this,ASCE::class.java)
+            startActivity(Intent)
+        }
+
+        val GYB = findViewById<Button>(R.id.button10)
+        GYB.setOnClickListener {
+            val Intent = Intent(this,GYB::class.java)
+            startActivity(Intent)
+        }
+
+        val ROBOTICS = findViewById<Button>(R.id.button11)
+        ROBOTICS.setOnClickListener {
+            val Intent = Intent(this,ROBOTICS::class.java)
+            startActivity(Intent)
+        }
+
+        val NATVANSH = findViewById<Button>(R.id.button12)
+        NATVANSH.setOnClickListener {
+            val Intent = Intent(this,NATVANSH::class.java)
+            startActivity(Intent)
+        }
     }
 }
