@@ -173,6 +173,7 @@
                 android:layout_width="160dp"
                 android:layout_height="160dp"
                 app:cardBackgroundColor="#FF3E4E"
+                android:foreground="@drawable/think_india_logo"
                 app:cardCornerRadius="18dp"
                 app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
