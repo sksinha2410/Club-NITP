@@ -3,7 +3,6 @@ package com.sksinha2410.clubsnitp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import androidx.cardview.widget.CardView
 
 class MainActivity : AppCompatActivity() {
@@ -56,9 +55,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent)
         }
 
-        val expresso = findViewById<CardView>(R.id.button8)
-        expresso.setOnClickListener {
-            val Intent = Intent(this,EXPRESSO::class.java)
+        val thinkindia = findViewById<CardView>(R.id.button8)
+        thinkindia.setOnClickListener {
+            val Intent = Intent(this,Think_India::class.java)
             startActivity(Intent)
         }
 
