@@ -64,7 +64,7 @@
             android:name=".gdscExtraPayment"
             android:exported="false" />
         <activity
-            android:name=".`Think India Extra Payment`"
+            android:name=".ThinkIndiaExtraPayment"
             android:exported="false" />
         <activity
             android:name=".descoExtraPayment"
@@ -88,7 +88,7 @@
             android:name=".gdscPaymenmt"
             android:exported="false" />
         <activity
-            android:name=".`Think India Payment`"
+            android:name=".ThinkIndiaPayment"
             android:exported="false" />
         <activity
             android:name=".descoPayment"
@@ -97,7 +97,7 @@
             android:name=".asmePayment"
             android:exported="false" />
         <activity
-            android:name=".`Think India`"
+            android:name=".Think_India"
             android:exported="false" />
         <activity
             android:name=".ASMEclub"
