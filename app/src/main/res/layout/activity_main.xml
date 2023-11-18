@@ -78,15 +78,13 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.039" />
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:text="IEEE"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#FF3E4E"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.927"
@@ -98,7 +96,7 @@
                 android:id="@+id/button3"
                 android:layout_width="160dp"
                 android:layout_height="160dp"
-                app:cardBackgroundColor="#FF5463"
+                app:cardBackgroundColor="#FF3E4E"
                 app:cardCornerRadius="18dp"
                 app:cardMaxElevation="25dp"
                 android:foreground="@drawable/tesla_logo"
@@ -110,16 +108,13 @@
                 app:layout_constraintVertical_bias="0.229"
                 app:rippleColor="#622828" />
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:text="HackSlash"
-                android:textColor="#FFFFFF"
-                android:textSize="23sp"
-                app:iconSize="@android:dimen/thumbnail_height"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#FF3E4E"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.931"
@@ -127,15 +122,13 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.229" />
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:text="ASME"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#FF3E4E"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.086"
@@ -143,15 +136,13 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.429" />
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:text="GDSC"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#FF3E4E"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.927"
@@ -159,15 +150,13 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.43" />
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:text="Saptak"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#FF3E4E"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.086"
@@ -175,15 +164,13 @@
                 app:layout_constraintTop_toTopOf="@+id/guideline4"
                 app:layout_constraintVertical_bias="0.613" />
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:text="Expresso"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#FF3E4E"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.927"
@@ -191,15 +178,13 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.62" />
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:text="ASCE"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#FF3E4E"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.086"
@@ -207,15 +192,13 @@
                 app:layout_constraintTop_toTopOf="@+id/guideline4"
                 app:layout_constraintVertical_bias="0.81" />
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button10"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:text="GYB"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#FF3E4E"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.927"
@@ -223,15 +206,13 @@
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.81" />
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button11"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:text="Robotics"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#FF3E4E"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.086"
@@ -239,15 +220,13 @@
                 app:layout_constraintTop_toTopOf="@+id/guideline4"
                 app:layout_constraintVertical_bias="1.0" />
 
-            <Button
+            <androidx.cardview.widget.CardView
                 android:id="@+id/button12"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:width="160dp"
-                android:height="160dp"
-                android:text="Natvansh"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:cardBackgroundColor="#FF3E4E"
+                app:cardCornerRadius="18dp"
+                app:cardMaxElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.927"

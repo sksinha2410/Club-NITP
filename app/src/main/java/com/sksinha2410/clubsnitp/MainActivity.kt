@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent)
         }
 
-        val ieee = findViewById<Button>(R.id.button2)
+        val ieee = findViewById<CardView>(R.id.button2)
         ieee.setOnClickListener {
             val Intent = Intent(this,IEEE::class.java)
             startActivity(Intent)
@@ -31,56 +31,56 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent)
         }
 
-        val hackslash = findViewById<Button>(R.id.button4)
+        val hackslash = findViewById<CardView>(R.id.button4)
         hackslash.setOnClickListener {
             val Intent = Intent(this,HAckSlash::class.java)
             startActivity(Intent)
         }
 
 
-        val asmeclub = findViewById<Button>(R.id.button5)
+        val asmeclub = findViewById<CardView>(R.id.button5)
         asmeclub.setOnClickListener {
             val Intent = Intent(this,ASMEclub::class.java)
             startActivity(Intent)
         }
 
-        val gdsc = findViewById<Button>(R.id.button6)
+        val gdsc = findViewById<CardView>(R.id.button6)
         gdsc.setOnClickListener {
             val Intent = Intent(this,GDSC::class.java)
             startActivity(Intent)
         }
 
-        val saptak = findViewById<Button>(R.id.button7)
+        val saptak = findViewById<CardView>(R.id.button7)
         saptak.setOnClickListener {
             val Intent = Intent(this,SAPTAK::class.java)
             startActivity(Intent)
         }
 
-        val expresso = findViewById<Button>(R.id.button8)
+        val expresso = findViewById<CardView>(R.id.button8)
         expresso.setOnClickListener {
             val Intent = Intent(this,EXPRESSO::class.java)
             startActivity(Intent)
         }
 
-        val asceclub = findViewById<Button>(R.id.button9)
+        val asceclub = findViewById<CardView>(R.id.button9)
         asceclub.setOnClickListener {
             val Intent = Intent(this,ASCEclub::class.java)
             startActivity(Intent)
         }
 
-        val GYB = findViewById<Button>(R.id.button10)
+        val GYB = findViewById<CardView>(R.id.button10)
         GYB.setOnClickListener {
             val Intent = Intent(this,GYBclub::class.java)
             startActivity(Intent)
         }
 
-        val robotics = findViewById<Button>(R.id.button11)
+        val robotics = findViewById<CardView>(R.id.button11)
         robotics.setOnClickListener {
             val Intent = Intent(this,ROBOTICS::class.java)
             startActivity(Intent)
         }
 
-        val natvansh = findViewById<Button>(R.id.button12)
+        val natvansh = findViewById<CardView>(R.id.button12)
         natvansh.setOnClickListener {
             val Intent = Intent(this,NATVANSH::class.java)
             startActivity(Intent)
