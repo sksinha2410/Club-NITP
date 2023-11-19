@@ -23,7 +23,7 @@
             android:id="@+id/imageView"
             android:layout_width="65dp"
             android:layout_height="65dp"
-            android:background="@drawable/bg_round_red_8dp"
+            android:background="@drawable/bg_round_light_pink_14dp"
             android:src="@drawable/desco_logo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
