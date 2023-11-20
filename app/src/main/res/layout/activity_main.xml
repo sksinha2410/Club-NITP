@@ -155,10 +155,11 @@
                 app:layout_constraintVertical_bias="0.43" />
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/button7"
+                android:id="@+id/button11"
                 android:layout_width="160dp"
                 android:layout_height="160dp"
                 app:cardBackgroundColor="#FF3E4E"
+                android:foreground="@drawable/robotics_logo"
                 app:cardCornerRadius="18dp"
                 app:cardElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -214,11 +215,10 @@
                 app:layout_constraintVertical_bias="0.81" />
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/button11"
+                android:id="@+id/button7"
                 android:layout_width="160dp"
                 android:layout_height="160dp"
                 app:cardBackgroundColor="#FF3E4E"
-                android:foreground="@drawable/robotics_logo"
                 app:cardCornerRadius="18dp"
                 app:cardElevation="25dp"
                 app:layout_constraintBottom_toBottomOf="parent"
