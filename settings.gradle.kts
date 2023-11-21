@@ -1,8 +1,11 @@
+import java.net.URL
+
 pluginManagement {
     repositories {
         google()
         mavenCentral()
         gradlePluginPortal()
+
     }
 }
 dependencyResolutionManagement {
