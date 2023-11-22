@@ -15,7 +15,7 @@
         android:theme="@style/Theme.ClubsNITP"
         tools:targetApi="31">
         <activity
-            android:name=".natvanshExtraPaymentPage"
+            android:name=".culturalclubExtraPaymentPage"
             android:exported="false" />
         <activity
             android:name=".roboticsExtraPaymentPage"
@@ -27,7 +27,7 @@
             android:name=".asceExtraPaymentPage"
             android:exported="false" />
         <activity
-            android:name=".natvanshPaymentPage"
+            android:name=".culturalclubPaymentPage"
             android:exported="false" />
         <activity
             android:name=".roboticsPaymentPage"
@@ -45,7 +45,7 @@
             android:name=".GYBclub"
             android:exported="false" />
         <activity
-            android:name=".NATVANSH"
+            android:name=".CULTURALCLUB"
             android:exported="false" />
         <activity
             android:name=".ASCEclub"
@@ -54,7 +54,7 @@
             android:name=".teslaExtraPayment"
             android:exported="false" />
         <activity
-            android:name=".saptakExtraPayment"
+            android:name=".sacExtraPayment"
             android:exported="false" />
         <activity
             android:name=".ieeeExtraPayment"
@@ -78,7 +78,7 @@
             android:name=".teslaPayment"
             android:exported="false" />
         <activity
-            android:name=".saptakPatment"
+            android:name=".sacPayment"
             android:exported="false" />
         <activity
             android:name=".hackslashPayment"
@@ -105,7 +105,7 @@
             android:name=".ASMEclub"
             android:exported="false" />
         <activity
-            android:name=".SAPTAK"
+            android:name=".sac"
             android:exported="false" />
         <activity
             android:name=".HAckSlash"

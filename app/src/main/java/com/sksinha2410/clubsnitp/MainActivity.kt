@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
 
         val saptak = findViewById<CardView>(R.id.button7)
         saptak.setOnClickListener {
-            val Intent = Intent(this,SAPTAK::class.java)
+            val Intent = Intent(this,sac::class.java)
             startActivity(Intent)
         }
 
@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
 
         val natvansh = findViewById<CardView>(R.id.button12)
         natvansh.setOnClickListener {
-            val Intent = Intent(this,NATVANSH::class.java)
+            val Intent = Intent(this,CULTURALCLUB::class.java)
             startActivity(Intent)
         }
     }

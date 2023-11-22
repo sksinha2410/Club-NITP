@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/color_EEEEEE"
-    tools:context=".NATVANSH">
+    tools:context=".sac">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:shadowColor="#414141"
-            android:text="NATVANSH"
+            android:text="SAC"
             android:textColor="#000000"
             android:textSize="34sp"
             app:layout_constraintBottom_toBottomOf="parent"

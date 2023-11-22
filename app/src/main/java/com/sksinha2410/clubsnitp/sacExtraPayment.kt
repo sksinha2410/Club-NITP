@@ -8,7 +8,7 @@ import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
 
-class natvanshExtraPaymentPage : AppCompatActivity() {
+class sacExtraPayment : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,7 +17,7 @@ class natvanshExtraPaymentPage : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://pages.razorpay.com/vimantriki/")
+        mywebView.loadUrl("https://rzp.io/l/HDxy06JNq8/")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }
