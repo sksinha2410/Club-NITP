@@ -14,10 +14,9 @@ class culturalclubExtraPaymentPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_natvansh_extra_payment_page)
 
-
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://rzp.io/l/mtHiQQ4WH/")
+        mywebView.loadUrl("https://rzp.io/l/HDxy06JNq8/")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }

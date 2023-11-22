@@ -17,7 +17,7 @@ class sacPayment : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("gddd")
+        mywebView.loadUrl("https://rzp.io/l/GguAGokJ/")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }

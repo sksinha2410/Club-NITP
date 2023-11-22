@@ -17,7 +17,7 @@ class culturalclubPaymentPage : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://rzp.io/l/GguAGokJ/")
+        mywebView.loadUrl("https://rzp.io/l/GguAGoJ/")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }
