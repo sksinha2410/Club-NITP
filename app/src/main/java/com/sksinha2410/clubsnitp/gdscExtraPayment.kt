@@ -17,7 +17,7 @@ class gdscExtraPayment : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://pages.razorpay.com/vimantriki/")
+        mywebView.loadUrl("https://rzp.io/l/0S5gCmk")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }
