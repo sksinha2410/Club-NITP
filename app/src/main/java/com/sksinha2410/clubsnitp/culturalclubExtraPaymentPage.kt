@@ -12,7 +12,7 @@ class culturalclubExtraPaymentPage : AppCompatActivity() {
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_natvansh_extra_payment_page)
+        setContentView(R.layout.activity_saptak_extra_payment)
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())

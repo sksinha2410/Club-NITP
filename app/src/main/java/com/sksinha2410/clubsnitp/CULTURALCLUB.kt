@@ -8,7 +8,7 @@ import androidx.cardview.widget.CardView
 class CULTURALCLUB : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_natvansh)
+        setContentView(R.layout.activity_saptak)
 
         val natvanshclub = findViewById<CardView>(R.id.button)
         natvanshclub.setOnClickListener {

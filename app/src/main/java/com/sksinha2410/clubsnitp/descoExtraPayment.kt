@@ -17,7 +17,7 @@ class descoExtraPayment : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://pages.razorpay.com/pl_N3a1dEOvDwQrIY/")
+        mywebView.loadUrl("https://rzp.io/l/6L95QkNnVQ")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }

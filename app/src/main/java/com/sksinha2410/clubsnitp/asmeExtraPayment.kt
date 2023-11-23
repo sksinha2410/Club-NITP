@@ -17,7 +17,7 @@ class asmeExtraPayment : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://pages.razorpay.com/pl_N3aFamXCCeTGrc/")
+        mywebView.loadUrl("https://rzp.io/l/CbPr438A")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }

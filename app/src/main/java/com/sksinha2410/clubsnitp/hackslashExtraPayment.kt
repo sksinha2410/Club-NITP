@@ -17,7 +17,7 @@ class hackslashExtraPayment : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://pages.razorpay.com/pl_N3aBjsSAhUuShv")
+        mywebView.loadUrl("https://rzp.io/l/yndXhNlzEc")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }
