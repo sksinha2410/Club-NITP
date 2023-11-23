@@ -17,7 +17,7 @@ class ascePaymentPage : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://pages.razorpay.com/pl_N3Tew8H6PY2Sfp/view/")
+        mywebView.loadUrl("https://rzp.io/l/pq3hC6qQL/view/")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }
