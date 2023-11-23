@@ -65,6 +65,7 @@
             android:layout_height="220dp"
             app:cardBackgroundColor="#8BC34A"
             app:cardCornerRadius="10dp"
+            android:foreground="@drawable/merche"
             app:cardElevation="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

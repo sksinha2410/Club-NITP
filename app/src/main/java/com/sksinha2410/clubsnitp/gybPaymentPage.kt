@@ -17,7 +17,7 @@ class gybPaymentPage : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://rzp.io/l/zzX2wm9/view/")
+        mywebView.loadUrl("https://rzp.io/l/zzX2wm9/")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }

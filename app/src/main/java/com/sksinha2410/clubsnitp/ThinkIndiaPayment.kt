@@ -16,7 +16,7 @@ class ThinkIndiaPayment : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://rzp.io/l/x33T4Ki/view/")
+        mywebView.loadUrl("https://rzp.io/l/x33T4Ki")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }

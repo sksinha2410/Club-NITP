@@ -17,7 +17,7 @@ class roboticsPaymentPage : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://rzp.io/l/8Uk5e46CTE/view/")
+        mywebView.loadUrl("https://rzp.io/l/8Uk5e46CTE")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }

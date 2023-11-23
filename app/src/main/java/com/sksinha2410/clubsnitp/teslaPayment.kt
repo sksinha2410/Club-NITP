@@ -17,7 +17,7 @@ class teslaPayment : AppCompatActivity() {
 
         var mywebView = findViewById<View>(R.id.webview) as WebView
         mywebView.setWebViewClient(WebViewClient())
-        mywebView.loadUrl("https://rzp.io/l/zYchG24/view/")
+        mywebView.loadUrl("https://rzp.io/l/zYchG24/")
         val webSettings: WebSettings = mywebView.getSettings()
         webSettings.javaScriptEnabled = true
     }
