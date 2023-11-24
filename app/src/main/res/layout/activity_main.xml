@@ -233,6 +233,7 @@
                 android:id="@+id/button12"
                 android:layout_width="160dp"
                 android:layout_height="160dp"
+                android:foreground="@drawable/cultural_clubs"
                 app:cardBackgroundColor="#FF3E4E"
                 app:cardCornerRadius="18dp"
                 app:cardElevation="25dp"
